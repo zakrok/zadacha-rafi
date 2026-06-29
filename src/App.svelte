@@ -20,7 +20,7 @@
 
   const rate = $derived(presets[selectedIndex].value);
   const tipAmount = $derived(bill * rate / 100);
-  const total = $derived(bill);
+  const total = $derived(bill + tipAmount);
   const perPerson = $derived(total / people);
 </script>
 
