@@ -5,7 +5,7 @@
   const presets = [
     { label: '10%', value: 10 },
     { label: '15%', value: 15 },
-    { label: '20%', value: 2 },
+    { label: '20%', value: 20 },
   ];
   let selectedIndex = $state(1);
 
